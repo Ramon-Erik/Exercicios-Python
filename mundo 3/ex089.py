@@ -1,4 +1,4 @@
-alunos_e_notas, media, cont = [[], [], []], 0, 0 # 0 nomes \ 1 notas \ 2 médias
+alunos_e_notas, media = [[], [], []], 0 # 0 nomes \ 1 notas \ 2 médias
 notas = list()
 while True:
     alunos_e_notas[0].append(str(input('Nome: ')).capitalize())
@@ -10,7 +10,6 @@ while True:
     keep = str(input('Deseja continuar? [S/N]? ')).upper()[0]
     if keep in 'N':
         break
-    cont += 2
     notas.clear()
 print('-='*20)
 print(f'{"No.":<5}{"NOME":<10}{"MÉDIA":>8}')
