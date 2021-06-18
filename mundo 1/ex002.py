@@ -1,2 +1,2 @@
 nome = input('digite seu nome: ')
-pint(f'Bem vindo(a), {nome}')
+print(f'Bem vindo(a), {nome}')
