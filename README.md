@@ -7,4 +7,4 @@ __Mminhas resoluções para os desafios do curso em video, curso de python__
 
 - [x] Mundo 2
 
-- [] Mundo 3
+- [x] Mundo 3
